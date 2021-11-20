@@ -1,0 +1,71 @@
+.frindListHolder {
+  list-style: none;
+  margin: 0;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.frindListHolder .name {
+  font-weight: 800;
+  color: var(--black-color);
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.frindListHolder .description {
+  font-size: 14px;
+  color: var(--grey-color-dark);
+}
+
+.frindListHolder li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--grey-color);
+  padding: 15px 0;
+}
+
+.textContainer {
+  width: 70%;
+}
+
+.iconContainer {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.4rem;
+}
+
+.iconContainer button {
+  width: 30px;
+  height: 30px;
+  background-color: var(--white-color);
+  border: 1px solid var(--grey-color);
+  padding: 0;
+  font-size: 20px;
+}
+.iconContainer button img {
+  width: 20px;
+}
+.iconContainer .delete {
+  color: var(--red-color);
+}
+
+.modalButton button {
+  background-color: var(--blue-color);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 10px;
+  color: var(--white-color);
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+.modalButton .cancel{
+  background-color: var(--green-color);
+}
+.modalButton .delete{
+  background-color: var(--red-color);
+}
