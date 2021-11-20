@@ -1,3 +1,5 @@
+# App Link
+    [a link] (https://haptik-assignment-lovat.vercel.app/)
 # Haptik Assignment
     Every Components have styles file. Style Modules was used.
     Use of Context Api for maintaining state so that all the freinds logic was been done in one place.
